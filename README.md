@@ -10,6 +10,9 @@ pip3 install pycryptodome
 * -ver - Para verificar assinatura de um documento.
 
 # EXEMPLO DE USO
-Gerar Certificado Autoassinado>> python3 DigitalSignature.py -ger teste.txt
-Assinar Certificado Específico>> python3 DigitalSignature.py -ass doc.txt docsigned.txt prv_key.pem
-Verificar Documento Assinado >> python3 DigitalSignature.py -ver doc.txt docsigned.txt pbl_key.pem
+- Gerar Certificado Autoassinado
+-- python3 DigitalSignature.py -ger teste.txt
+- Assinar Certificado Específico
+-- python3 DigitalSignature.py -ass doc.txt docsigned.txt prv_key.pem
+- Verificar Documento Assinado
+-- python3 DigitalSignature.py -ver doc.txt docsigned.txt pbl_key.pem
