@@ -15,9 +15,9 @@ pip3 install pycryptodome
 -ver <normal doc file> <public key file> <PublicKey file>- Para verificar assinatura de um documento
 
 #EXEMPLO DE USO
-Gerar Certificado Autoassinado>> python3 trab01_CertDig.py -ger teste.txt
-Assinar Certificado Específico>> python3 trab01_CertDig.py -ass doc.txt docsigned.txt prv_RodolfoTrevisol.pem
-Verificar Documento Assinado>> python3 trab01_CertDig.py -ver doc.txt docsigned.txt pbl_RodolfoTrevisol.pem
+Gerar Certificado Autoassinado>> python3 DigitalSignature.py -ger teste.txt
+Assinar Certificado Específico>> python3 DigitalSignature.py -ass doc.txt docsigned.txt prv_RodolfoTrevisol.pem
+Verificar Documento Assinado>> python3 DigitalSignature.py -ver doc.txt docsigned.txt pbl_RodolfoTrevisol.pem
 """
 
 from Crypto.Hash import SHA256
