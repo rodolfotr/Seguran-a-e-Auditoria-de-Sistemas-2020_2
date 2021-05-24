@@ -1,5 +1,9 @@
 # DESCRIÇÃO DO SISTEMA
-O sistema é capaz de: A: Assinar documentos digitalmente, a partir de uma chave privada. B: Gerar certificados de dois tipos: 1: Certificados Autoassinados; C: De posse de um conjunto de certificados, verificar se um documento assinado digitalmente, é válido.
+O sistema é capaz de:
+- A: Assinar documentos digitalmente, a partir de uma chave privada.
+- B: Gerar certificados de dois tipos:
+-- 1: Certificados Autoassinados;
+- C: De posse de um conjunto de certificados, verificar se um documento assinado digitalmente, é válido.
 
 # NECESSARIO INSTALAR
 pip3 install pycryptodome
