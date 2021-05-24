@@ -1,4 +1,3 @@
-"""
 #DESCRIÇÃO DO SISTEMA
 O sistema é capaz de:
 	A: Assinar documentos digitalmente, a partir de uma chave privada.
@@ -18,4 +17,3 @@ pip3 install pycryptodome
 Gerar Certificado Autoassinado>> python3 trab01_CertDig.py -ger teste.txt
 Assinar Certificado Específico>> python3 trab01_CertDig.py -ass doc.txt docsigned.txt prv_RodolfoTrevisol.pem
 Verificar Documento Assinado>> python3 trab01_CertDig.py -ver doc.txt docsigned.txt pbl_RodolfoTrevisol.pem
-"""
